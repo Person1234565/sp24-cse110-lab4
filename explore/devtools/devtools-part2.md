@@ -1,0 +1,2 @@
+1. The bug was that the parameters num1 and num2 were treated as strings when attempting to add them in calculateSum. This caused calculateSum to concatenate the inputs rather than add them. 
+2. I would fix it by first casting the inputs into a number. I can do this by adding a minus sign on one of the inputs to cast it as a number and then subtracting that from the other input, making it addition. Code found in fix.png
