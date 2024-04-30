@@ -28,26 +28,45 @@ Since the length of the array prices is 3, and since length is a const that cann
 the discounted array, and returns the discounted array. With the parameters given, this ends up multiplying 0.5 to each item, resulting in [50, 100, 150].
  
 12. A. student.name
+
     B. student['Grad Year']
+
     C. student.greeting()
+
     D. student['Favorite Teacher'].name
+
     E. student.courseLoad[0]
 
+
 13. A. 32 since the number 2 is mapped to its string representation.
+
     B. 1 since the string "3" is converted to its numeric counterpart 3.
+
     C. 3 since null is converted to the number 0.
+
     D. 3null since null is converted to the string "null."
+
     E. 4 since true is converted to the number 1. 
+
     F. 0 since both false and null are converted to the number 0.
+
     G. 3undefined since undefiend is converted to the string "undefined."
+
     H. NaN since undefined is converted to NaN and operations on NaN are also NaN.
 
+
 14. A. true since "3" is converted to its numeric counterpart 3, and 3 > 2. 
+
     B. false since the string "12" is lexicographically less than the string "2" as the starting character "1" is lexicographically less than the starting character "2."
+
     C. true since "2" is first converted to its numeric counterpart 2 and checked to be equal with 2, which they are equal. 
+
     D. false since strict equality does not perform type conversion, so it compares the string "2" with the number 2 and since they are different types they are not considered equal. 
+
     E. false since true is converted to its numeric counterpart 1, and 1 != 2. 
+
     F. true since Boolean(2) is true as 2 is a non-zero value.
+
 
 15. While == performs type conversion before checking for equality, === does not perform any type conversion before checking for equality. From this, === between two operands of different types will always be false. 
 
